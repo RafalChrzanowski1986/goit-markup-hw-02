@@ -1,6 +1,17 @@
+:root {
+  --descriptions-color: #757575;
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+  --stress-color: #2196f3;
+  --main-font-size: 14px;
+  --letter-spacing: 0.03em;
+  --letter-spacing-big: 0.06em;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: var(--black-color);
 }
 .navigation_logo {
   text-decoration: none;
@@ -12,11 +23,11 @@ body {
 }
 
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .studio {
-  color: #000;
+  color: var(--black-color);
 }
 /*=====HEADER=====*/
 
@@ -82,15 +93,16 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
-.li {
+.list {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.h4 {
+.list title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -98,7 +110,7 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-.h2 {
+.section{
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -130,3 +142,15 @@ body {
   height: 252px;
 }
 /*=====END FOOTER=======*/
+
+.button-portfolio {
+  width: 93px;
+  height: 38px;
+  border: none;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--links);
+}
