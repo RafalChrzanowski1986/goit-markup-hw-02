@@ -41,34 +41,31 @@ body {
 
   color: #2196f3;
 }
-.navigation a {
+.navigation {
   text-decoration: none;
-  color: var(--links);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.38;
-  display: inline;
-}
-.navigation a:hover,
-.navigation a:focus {
-  color: #2196f3;
-}
-
-.contact_mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
+  color: #212121;
+}
+.navigation:hover,
+.navigation:focus {
   color: #2196f3;
 }
-.contact_tel {
+.contact {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
 }
 /*=====END HEADER=====*/
 
