@@ -29,6 +29,9 @@ body {
 .studio {
   color: var(--black-color);
 }
+.studio2 {
+  color: var(--white-color);
+}
 /*=====HEADER=====*/
 
 .header {
