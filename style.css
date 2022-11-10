@@ -66,6 +66,15 @@ body {
 
   color: #757575;
 }
+
+.contact_white {text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;}
+
 .contact:hover,
 .contact:focus {
   color: #2196f3;
@@ -89,6 +98,7 @@ body {
 }
 
 .button {
+  font-family:arial;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -151,6 +161,7 @@ body {
 /*=====END FOOTER=======*/
 
 .button-portfolio {
+  font-family: arial;
   border: none;
   color: #212121;
   background-color: #f5f4fa;
