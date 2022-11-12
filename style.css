@@ -128,7 +128,7 @@ body {
   color: #212121;
   list-style-type: none;
 }
-.list .title .portfolio {
+.portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 16px;
@@ -193,7 +193,6 @@ body {
   font-size: 16px;
   text-align: center;
   cursor: pointer;
-  color: var(--links);
   background: #f5f4fa;
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
