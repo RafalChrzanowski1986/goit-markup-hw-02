@@ -67,13 +67,16 @@ body {
   color: #757575;
 }
 
-.contact_white {text-decoration: none;
+.contact_white {
+  font-style: normal;
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #ffffff;}
+  color: #ffffff;
+}
 
 .contact:hover,
 .contact:focus {
@@ -83,7 +86,6 @@ body {
 
 /*=====MAIN=====*/
 .upper {
-  
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -98,7 +100,7 @@ body {
 }
 
 .button {
-  font-family:arial;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -119,7 +121,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.list title {
+.list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
